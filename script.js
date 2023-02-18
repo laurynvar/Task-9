@@ -13,4 +13,7 @@ class Movie {
     this.director = director;
     this.budget = budget;
   }
+  wasExpensive() {
+    return this.budget > 100000000;
+  }
 }
