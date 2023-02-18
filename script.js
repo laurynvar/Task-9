@@ -17,3 +17,6 @@ class Movie {
     return this.budget > 100000000;
   }
 }
+
+const mrBean = new Movie("Mr. Bean", "John Howard Davies", 180000000);
+console.log(mrBean.wasExpensive());
